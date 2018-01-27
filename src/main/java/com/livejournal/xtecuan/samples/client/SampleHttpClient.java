@@ -41,11 +41,11 @@ public class SampleHttpClient {
 
     private static final Logger LOGGER = Logger.getLogger(SampleHttpClient.class);
 
-    private static final String PROXY_HOST = "wwppool.local.iadb.org";
-    private static final int PROXY_PORT = 9090;
+    private static final String PROXY_HOST = "my.organization.proxy.org";
+    private static final int PROXY_PORT = 8080;
     private static final Boolean IS_PROXY_ENABLED = Boolean.TRUE;
-    private static final String PROXY_USERNAME = "julianr";
-    private static final String PROXY_PASSWORD = "Theramones123$$$5";
+    private static final String PROXY_USERNAME = "myorguser";
+    private static final String PROXY_PASSWORD = "MyPass123";
 
     private HttpHost getHttpProxy() {
         return new HttpHost(PROXY_HOST, PROXY_PORT);
